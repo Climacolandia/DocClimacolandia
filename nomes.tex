@@ -1,13 +1,12 @@
 %%------------------------------------------------------------------------------
 %%----------------Variaveis para o LaTeX no Relatório---------------------------
 \newcommand{\universidade}{Universidade de Bras\'ilia - Campus Gama}
-\newcommand{\hell}{Nome da Materia}		%nome do arquivo
-% \renewcommand{\autor}{\ziul}							%criador do pdf - só observado nos detalhes do pdf
-\newcommand{\assunto}{Experimento}			%Nome do experimento
-\newcommand{\ver}{Titulo~- \assunto}						%numeração do experimento
-\newcommand{\professor}{Professor}
+\newcommand{\hell}{Requisitos de Software}		%nome do arquivo
+% \renewcommand{\autor}{\ramle}							%criador do pdf - só observado nos detalhes do pdf
+\newcommand{\assunto}{Climacolandia Doces}		%Nome do experimento
+\newcommand{\ver}{Relatorio 1~- \assunto}						%numeração do experimento
+\newcommand{\professor}{Elaine}
 \newcommand{\curso}{ENGENHARIA DE SOFTWARE}
-\newcommand{\turma}{D}
 
 %%------------------------------------------------------------------------------
 %%------------------------Detalhes para serem revistos--------------------------
@@ -17,16 +16,31 @@
 
 %%------------------------------------------------------------------------------
 %%------------------------------Nomes-------------------------------------------
-\newcommand{\luiz}{\href{http://lattes.cnpq.br/1109478949026592}{Luiz Fernando Gomes de Oliveira}}	%Para link
-\newcommand{\ziul}{{Luiz Fernando Gomes de Oliveira}}					%Sem link
-\newcommand{\luizmatricula}{10/46969}
-\newcommand{\eluiz}{ziuloliveira@gmail.com}
+\newcommand{\elmar}{\href{https://github.com/ElmarRoberto}{Elmar Roberto Caixeta FIlho}}	%Para link
+\newcommand{\ramle}{{Elmar Roberto Caixeta FIlho}}					%Sem link
+\newcommand{\elmarmatricula}{14/0019537}
+\newcommand{\eelmar}{elmarunb@gmail.com}
+
+\newcommand{\gabrielC}{\href{https://github.com/}{Gabriel }}	%Para link
+\newcommand{\Cleirbag}{{Gabriel }}					%Sem link
+\newcommand{\gabrielCmatricula}{14/}
+\newcommand{\egabrielC}{@gmail.com}
+
+\newcommand{\gabrielV}{\href{https://github.com/}{Gabriel Viana}}	%Para link
+\newcommand{\Vleirbag}{{Gabriel }}					%Sem link
+\newcommand{\gabrielVmatricula}{14/}
+\newcommand{\egabrielV}{@gmail.com}
+
+\newcommand{\matheus}{\href{https://github.com/}{Matheus Henrique }}	%Para link
+\newcommand{\suehtam}{{Matheus Henrique }}					%Sem link
+\newcommand{\matheusmatricula}{14/}
+\newcommand{\ematheus}{@gmail.com}
 
 %----------------------Foto e bibliografia do(s) autor(es)----------------------
 %%------------------------------------------------------------------------------
 %					  Deve de ser COLADO ao final do texto
 %%------------------------------------------------------------------------------
-%	\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{./fts/luiz}}]{\luiz}\label{luiz}
+%	\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{./fts/elmar}}]{\elmar}\label{elmar}
 %	É, sou eu. Aparecendo aqui só de brinks. Meio que trollando um relatório.
 %	\end{IEEEbiography}
 %
@@ -40,13 +54,14 @@
 \makeatletter
 \@ifclassloaded{scrartcl}% Slide
 {
-	\newcommand{\names}{\luiz}
-	\newcommand{\namecapa}{\ziul \\ \ziul}
-	%\newcommand{\allmatriculas}{\luizmatricula,\canelamatricula}
+	\newcommand{\names}{{\elmar}; {\gabrielC}; {\gabrielV}; {\matheus}}
+	\newcommand{\namecapa}{{\ramle \\ \ramle} \\ {\Cleirbag \\ \Cleirbag} \\ {\Vleirbag \\ \Vleirbag} \\ {\suehtam \\ \suehtam}}
+	
+	%\newcommand{\allmatriculas}{\elmarmatricula,\canelamatricula}
 }
 {
-	\newcommand{\names}{\luiz}
-	\newcommand{\allmatriculas}{\luizmatricula}
+	\newcommand{\names}{{\elmar} \\ {\gabrielC} \\ {\gabrielV} \\ {\matheus}}
+	\newcommand{\allmatriculas}{{\elmarmatricula}{\gabrielCmatricula}{\gabrielVmatricula}{\matheusmatricula}}
 
 }
 \makeatother
