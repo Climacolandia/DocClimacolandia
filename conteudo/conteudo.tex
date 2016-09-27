@@ -23,13 +23,68 @@
 
   \subsection{Metodologia de Desenvolvimento}
   
-  A metodologia usada será o Incremental Commitment Spiral Model (ICSM). Em decorrência do baixo nível de conhecimento técnico dos Stakeholders, a escolha desse processo de desenvolvimento foi realizada com base, não somente por esse fator, mas também no seu alto nível de abstração que proporciona grandes adaptações no projeto para fácil entendimento dos clientes. Além disso a metodologia funciona como uma espécie de metodologia híbrida, pois traz conceitos de outras para formar a mesma.
+  A metodologia usada será o Incremental Commitment Spiral Model (ICSM). Em decorrência do baixo nível 
+  de conhecimento técnico dos Stakeholders, a escolha desse processo de desenvolvimento foi realizada 
+  com base, não somente por esse fator, mas também no seu alto nível de abstração que proporciona 
+  grandes adaptações no projeto para fácil entendimento dos clientes. Além disso a metodologia funciona 
+  como uma espécie de metodologia híbrida, pois traz conceitos de outras para formar a mesma.
 
-  O ICSM une as fases do RUP, à flexibilidade do Ágil e a tomada de decisões baseada em riscos do Espiral. A imagem 1 apresenta o funcionamento do processo em questão:
+  O ICSM une as fases do RUP, à flexibilidade do Ágil e a tomada de decisões baseada em riscos do 
+  Espiral. A imagem 1 apresenta o funcionamento do processo em questão:
 
-  Cada ciclo da espiral representa uma fase do processo tradicional e para passar para a próxima fase é preciso analisar os riscos de fazê-lo. É possível, como já foi dito, adaptar o processo para as necessidades do cliente, assim como o Ágil.
+  % colocar modelo do icsm
+
+  Cada ciclo da espiral representa uma fase do processo tradicional e para passar para a próxima fase 
+  é preciso analisar os riscos de fazê-lo. É possível, como já foi dito, adaptar o processo para as
+  necessidades do cliente, assim como o Ágil.
 
   \subsection{Modelagem do processo de Engenharia de Requisitos}
+
+  O modelo utilizado neste tópico é baseada no Incremental Commitment Spiral Model (ICSM) que por
+  acaso, como já definido neste documento, é um modelo de processo híbrido não muito conhecido, 
+  com isso, pode-se trazer uma nova proposta de mistura de metodologias. Com essa característica, 
+  somada às principais atividades da Engenharia de Requisitos: elicitar; documentar; analisar; 
+  verificar e validar; e gerenciar, mais as fases definidas dentro do processo escolhido (ICSM), 
+  exploração, valoração, fundamentação, desenvolvimento, operação e processo, onde alguns desse 
+  processos são repetidos ao longo do desenvolvimento completo do sistema, pôde-se construir um 
+  modelo de processo de requisitos mais flexível, adaptável às necessidades do clientes, e de modo 
+  geral, diferente de modelos convencionais em vista dos aspectos gerais, como a ligação e 
+  sequência estabelecida de atividades, sequência de entrega de artefatos, escolhas de troca de ciclo, 
+  que no caso é baseada em riscos, etc (BOEHM, 2014). Esses aspectos se dão pelo fato de ser um 
+  modelo criado a pouco tempo. 
+  
+  No diagrama abaixo, foi buscada a melhor visualização para todas as atividades e artefatos de 
+  modo que se possa perceber a organização de todos os níveis e ligações entre atividades, 
+  podendo assim, proporcionar a melhor análise e percepção, não apenas das mudanças de ciclos 
+  mas principalmente das diferenciação da parte de análise de negócios e análise de sistema.
+
+  % colocar imagem do processo
+
+  Na figura 4, podemos observar várias estruturas de decisões que consistem em análise de risco, que 
+  é a base da metodologia ICSM, com isso, para haver a passagem de um ciclo da espiral para o 
+  próximo, ocorre a avaliação dos riscos que se tem ao realizar tal atividade. Dependendo do resultado 
+  da análise, o projeto pode ficar estagnado ou até mesmo ser cancelado (BOEHM, 2014), portanto, 
+  o prosseguimento da estrutura de decisão dependerá sempre do retorno vindo de determinada análise.
+  
+  Segundo (Boehm et. al.), os ciclos da espiral são divididos em: 
+
+  \begin{\begin{itemize}
+    \item \textbf{Exploração:} consiste apenas no entendimento do problema
+    \item \textbf{Valoração:} Consiste em uma análise de custo benefício para avaliar a viabilidade do projeto
+    \item \textbf{Fundamentação:} é onde ocorre a tomada de decisões a respeito de assuntos de ciclo 
+    de vida do sistema, arquitetura, definição de tecnologias e semelhantes
+  \end{itemize}}
+
+  Esses três ciclos determinam a primeira fase, chamada de “Definição Incremental”, e pode levar de uma 
+  semana a cinco anos, dependendo das características do projeto. No caso do projeto em questão, pretende-se 
+  levar em torno de duas semanas na realização da primeira fase.
+  
+  Ainda tomando como base (BOEHM, 2014), após a fase de definição incremental, se inicia a fase 
+  de “Desenvolvimento Incremental”. Nessa fase, o primeiro ciclo que ocorre está relacionado ao 
+  desenvolvimento incremental e ao ajuste da fundamentação de acordo com as necessidades do cliente. 
+  No próximo ciclo, é apenas adicionado a tarefa de operação e produção incremental enquanto as outras 
+  duas se repetem. Os ciclos seguintes são repetições do anteriormente descritos.
+
   \subsection{Subprocessos da Engenharia de Requisitos}
     \subsubsection{Gerência de mudança}
     \subsubsection{Entrega dos casos de uso}
